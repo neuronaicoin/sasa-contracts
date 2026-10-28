@@ -1,0 +1,32 @@
+{
+  "project": "sasa",
+  "website": "https://sasapad.fun",
+  "primaryNetwork": "bsc",
+  "networks": {
+    "bsc": {
+      "name": "BNB Smart Chain Mainnet",
+      "chainId": 56,
+      "rpc": "https://bsc-dataseed.bnbchain.org",
+      "explorer": "https://bscscan.com",
+      "deployment": "deployments/race-mainnet-v8/56.json",
+      "contracts": {
+        "factory": "0x1Fe532901FE7c66251E55606021b4F2A7e12ABaa",
+        "builder": "0x68e8a49487421F2B1A976254feb205197C7bCBBF",
+        "router": "0x4b43040e89F1440E4752C12addcD6A347e33E7E1",
+        "hub": "0xd211F61274284DC3Af39C428bd4bDf59c27836AE",
+        "hook": "0x8b6D9C429804566A1550Ce938701B1FC1f87dcf8",
+        "feeVault": "0x4BD4c52A0c520EBfe617Bc0d81d6bc7D3280e7cC",
+        "pancakeswapClPoolManager": "0xa0FfB9c1CE1Fe56963B0321B32E7A0302114058b",
+        "chainlinkBnbUsd": "0x0567F2323251f0Aab15c8dFb1967E4e8A7D42aeE",
+        "wbnb": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c"
+      }
+    },
+    "bscTestnet": {
+      "name": "BNB Smart Chain Testnet",
+      "chainId": 97,
+      "rpc": "https://data-seed-prebsc-1-s1.bnbchain.org:8545",
+      "explorer": "https://testnet.bscscan.com",
+      "deployment": "deployments/race/97.json"
+    }
+  }
+}
